@@ -24,3 +24,4 @@ alias go1.26='/home/root/go_versions/1.26.0.bin/go'
 ### Future Ideas
 * `list` and `uninstall` commands would be nice to have.
 * potentially a symlink manager.
+* Please I need to add some tests, or if anyone else would like to help me there.
