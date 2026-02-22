@@ -31,7 +31,7 @@ func getOsArch() (string, string) {
 
 func usage() {
 	fmt.Println("Usage:")
-	fmt.Println("  gotool install --version <version> --dir <install-dir> [--force]")
+	fmt.Println("  goversion install --version <version> --dir <install-dir> [--force]")
 }
 
 func installCmd(args []string) {

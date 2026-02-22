@@ -39,7 +39,7 @@ func RemoveDir(path string) error {
 }
 
 func TempFile() (string, error) {
-	f, err := os.CreateTemp("", "gotool-*.tar.gz")
+	f, err := os.CreateTemp("", "goversion-*.tar.gz")
 	if err != nil {
 		return "", err
 	}
